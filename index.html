@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="haha" />
-    <meta property="og:description" content="funny domain name" />
-    <title>haha funny site</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta property="og:title" content="Maxine's Photos">
+  <meta property="og:description" content="Welcome to my photo gallery.">
+  <meta property="og:url" content="https://i-fucking-love-cocks.xyz">
+  <meta property="og:type" content="website">
+  <meta name="description" content="Welcome to my photo gallery.">
+  <meta name="keywords" content="Maxine's Photos">
+  <meta name="author" content="Maxine">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maxine's Photos</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-center">haha funny domain name</h1>
-    </div>
+  <div class="content">
+    <div class="photo-gallery" id="photoGallery"></div>
+  </div>
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightboxImage">
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+  <script src="loadphotos.js"></script>
 </body>
 </html>

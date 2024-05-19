@@ -1,26 +1,114 @@
-/* styles.css */
 body {
+    font-family: "Jetbrains Mono", monospace;
+    background-color: #191919;
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    color: #c5c5c5;
 }
 
-.container {
+.content {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 10px; 
+}
+
+.photo-gallery {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+    max-width: 100%; 
+}
+
+.photo-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s;
+}
+
+.photo-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
-.text-center {
-    text-align: center;
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
 }
 
-body.dark-mode {
-    background-color: #333;
-    color: #fff;
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
 }
 
-body.light-mode {
-    background-color: #fff;
-    color: #000;
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        margin-top: 20px;
+    }
+
+    .photo-gallery img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .photo-gallery img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .close {
+        font-size: 30px;
+        top: 10px;
+        right: 20px;
+    }
+
+    .prev, .next {
+        font-size: 30px;
+    }
 }
