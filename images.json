@@ -25,6 +25,10 @@
       "fullSize": "/photos/image2.jpg"
     },
     {
+      "thumbnail": "/thumbnails/image24.jpg",
+      "fullSize": "/photos/image24.jpg"
+    },
+    {
       "thumbnail": "/thumbnails/image3.jpg",
       "fullSize": "/photos/image3.jpg"
     },
