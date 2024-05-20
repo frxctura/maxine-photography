@@ -1,26 +1,6 @@
 {
   "images": [
     {
-      "thumbnail": "/thumbnails/image1.jpg",
-      "fullSize": "/photos/image1.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image10.jpg",
-      "fullSize": "/photos/image10.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image11.jpg",
-      "fullSize": "/photos/image11.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image12.jpg",
-      "fullSize": "/photos/image12.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image13.jpg",
-      "fullSize": "/photos/image13.jpg"
-    },
-    {
       "thumbnail": "/thumbnails/image2.jpg",
       "fullSize": "/photos/image2.jpg"
     },
@@ -39,18 +19,6 @@
     {
       "thumbnail": "/thumbnails/image6.jpg",
       "fullSize": "/photos/image6.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image7.jpg",
-      "fullSize": "/photos/image7.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image8.jpg",
-      "fullSize": "/photos/image8.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image9.jpg",
-      "fullSize": "/photos/image9.jpg"
     }
   ]
 }
