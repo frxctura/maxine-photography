@@ -1,0 +1,32 @@
+name: Process Photos
+
+on: 
+  push:
+    paths:
+      - "photos/**/*.jpg"
+
+jobs:
+  check-and-process:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Check for new photos
+      id: check_new_photos
+      run: |
+        git diff --name-only HEAD^ HEAD | grep '^photos/.*\.jpg' || echo "No new photos" > no_new_photos
+
+    - name: Run rename.py
+      if: steps.check_new_photos.outputs.new_photos != 'No new photos'
+      run: python rename.py
+
+    - name: Run gen.py
+      if: steps.check_new_photos.outputs.new_photos != 'No new photos'
+      run: python gen.py
