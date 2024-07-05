@@ -69,8 +69,20 @@
       "fullSize": "/photos/image24.jpg"
     },
     {
+      "thumbnail": "/thumbnails/image25.jpg",
+      "fullSize": "/photos/image25.jpg"
+    },
+    {
+      "thumbnail": "/thumbnails/image26.jpg",
+      "fullSize": "/photos/image26.jpg"
+    },
+    {
       "thumbnail": "/thumbnails/image27.jpg",
       "fullSize": "/photos/image27.jpg"
+    },
+    {
+      "thumbnail": "/thumbnails/image28.jpg",
+      "fullSize": "/photos/image28.jpg"
     },
     {
       "thumbnail": "/thumbnails/image3.jpg",
