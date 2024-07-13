@@ -93,6 +93,10 @@
       "fullSize": "/photos/image3.jpg"
     },
     {
+      "thumbnail": "/thumbnails/image30.jpg",
+      "fullSize": "/photos/image30.jpg"
+    },
+    {
       "thumbnail": "/thumbnails/image36.jpg",
       "fullSize": "/photos/image36.jpg"
     },
