@@ -113,8 +113,16 @@
       "fullSize": "/photos/image34.jpg"
     },
     {
+      "thumbnail": "/thumbnails/image35.jpg",
+      "fullSize": "/photos/image35.jpg"
+    },
+    {
       "thumbnail": "/thumbnails/image36.jpg",
       "fullSize": "/photos/image36.jpg"
+    },
+    {
+      "thumbnail": "/thumbnails/image37.jpg",
+      "fullSize": "/photos/image37.jpg"
     },
     {
       "thumbnail": "/thumbnails/image4.jpg",
