@@ -1,36 +1,8 @@
 {
   "images": [
     {
-      "thumbnail": "/thumbnails/image1.jpg",
-      "fullSize": "/photos/image1.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image10.jpg",
-      "fullSize": "/photos/image10.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image11.jpg",
-      "fullSize": "/photos/image11.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image12.jpg",
-      "fullSize": "/photos/image12.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image13.jpg",
-      "fullSize": "/photos/image13.jpg"
-    },
-    {
       "thumbnail": "/thumbnails/image14.jpg",
       "fullSize": "/photos/image14.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image15.jpg",
-      "fullSize": "/photos/image15.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image16.jpg",
-      "fullSize": "/photos/image16.jpg"
     },
     {
       "thumbnail": "/thumbnails/image17.jpg",
@@ -49,10 +21,6 @@
       "fullSize": "/photos/image2.jpg"
     },
     {
-      "thumbnail": "/thumbnails/image20.jpg",
-      "fullSize": "/photos/image20.jpg"
-    },
-    {
       "thumbnail": "/thumbnails/image21.jpg",
       "fullSize": "/photos/image21.jpg"
     },
@@ -67,10 +35,6 @@
     {
       "thumbnail": "/thumbnails/image24.jpg",
       "fullSize": "/photos/image24.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image25.jpg",
-      "fullSize": "/photos/image25.jpg"
     },
     {
       "thumbnail": "/thumbnails/image26.jpg",
@@ -133,10 +97,6 @@
       "fullSize": "/photos/image39.jpg"
     },
     {
-      "thumbnail": "/thumbnails/image4.jpg",
-      "fullSize": "/photos/image4.jpg"
-    },
-    {
       "thumbnail": "/thumbnails/image40.jpg",
       "fullSize": "/photos/image40.jpg"
     },
@@ -165,20 +125,8 @@
       "fullSize": "/photos/image53.jpg"
     },
     {
-      "thumbnail": "/thumbnails/image6.jpg",
-      "fullSize": "/photos/image6.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image7.jpg",
-      "fullSize": "/photos/image7.jpg"
-    },
-    {
       "thumbnail": "/thumbnails/image8.jpg",
       "fullSize": "/photos/image8.jpg"
-    },
-    {
-      "thumbnail": "/thumbnails/image9.jpg",
-      "fullSize": "/photos/image9.jpg"
     }
   ]
 }
