@@ -149,6 +149,10 @@
       "fullSize": "/photos/image42.jpg"
     },
     {
+      "thumbnail": "/thumbnails/image43.jpg",
+      "fullSize": "/photos/image43.jpg"
+    },
+    {
       "thumbnail": "/thumbnails/image45.jpg",
       "fullSize": "/photos/image45.jpg"
     },
