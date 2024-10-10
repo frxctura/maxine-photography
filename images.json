@@ -5,6 +5,18 @@
       "fullSize": "/photos/image1.jpg"
     },
     {
+      "thumbnail": "/thumbnails/image10.jpg",
+      "fullSize": "/photos/image10.jpg"
+    },
+    {
+      "thumbnail": "/thumbnails/image11.jpg",
+      "fullSize": "/photos/image11.jpg"
+    },
+    {
+      "thumbnail": "/thumbnails/image12.jpg",
+      "fullSize": "/photos/image12.jpg"
+    },
+    {
       "thumbnail": "/thumbnails/image14.jpg",
       "fullSize": "/photos/image14.jpg"
     },
